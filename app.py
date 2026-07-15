@@ -21,8 +21,8 @@ st.write("Enter the Details to Predict the Estimated Price")
 
 location=st.text_input('Enter Location').strip()
 
-total_sqft= st.number_input('Total Square Feet',min_value=450,max_value=10000)
-st.info("For better predictions, enter Total Square Feet value within the range of 450 to 10000.")
+total_sqft= st.number_input('Total Square Feet',min_value=450,max_value=30000)
+st.info("For better predictions, enter Total Square Feet value within the range of 450 to 30000.")
 
 bath=st.number_input('Number of Bathrooms',min_value=1)
 
